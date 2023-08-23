@@ -20,7 +20,7 @@
             # basic tools
             (with pkgs; [ ruby rust cargo gcc libiconv ])
             ++
-            (with rubyPackages; [ rails ]);
+            (with rubyPackages; [ rails tilt ]);
           shellHook = ''
                     alias ll="ls -lasi"
                     '';
